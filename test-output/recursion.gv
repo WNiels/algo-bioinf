@@ -1,0 +1,127 @@
+digraph {
+	"0_SCS_DP(ABCBDAB, BDCABA)" [label="0_SCS_DP(ABCBDAB, BDCABA)"]
+	"1_SCS_DP(ABCBDA)" [label="1_SCS_DP(ABCBDA)"]
+	"0_SCS_DP(ABCBDAB, BDCABA)" -> "1_SCS_DP(ABCBDA)"
+	"2_SCS_DP()" [label="2_SCS_DP()"]
+	"1_SCS_DP(ABCBDA)" -> "2_SCS_DP()"
+	"3_SCS_DP(ABCB)" [label="3_SCS_DP(ABCB)"]
+	"2_SCS_DP()" -> "3_SCS_DP(ABCB)"
+	"4_SCS_DP()" [label="4_SCS_DP()"]
+	"3_SCS_DP(ABCB)" -> "4_SCS_DP()"
+	"5_SCS_DP(AB)" [label="5_SCS_DP(AB)"]
+	"4_SCS_DP()" -> "5_SCS_DP(AB)"
+	"6_SCS_DP(A)" [label="6_SCS_DP(A)"]
+	"5_SCS_DP(AB)" -> "6_SCS_DP(A)"
+	"7_SCS_DP()" [label="7_SCS_DP()"]
+	"6_SCS_DP(A)" -> "7_SCS_DP()"
+	"7_SCS_DP()" [label="7_SCS_DP() -> BDC"]
+	"6_SCS_DP(A)" [label="6_SCS_DP(A) -> BDCA"]
+	"6_SCS_DP()" [label="6_SCS_DP()"]
+	"5_SCS_DP(AB)" -> "6_SCS_DP()"
+	"7_SCS_DP(A)" [label="7_SCS_DP(A)"]
+	"6_SCS_DP()" -> "7_SCS_DP(A)"
+	"8_SCS_DP()" [label="8_SCS_DP()"]
+	"7_SCS_DP(A)" -> "8_SCS_DP()"
+	"8_SCS_DP()" [label="8_SCS_DP() -> BDC"]
+	"8_SCS_DP()" [label="8_SCS_DP()"]
+	"7_SCS_DP(A)" -> "8_SCS_DP()"
+	"9_SCS_DP()" [label="9_SCS_DP()"]
+	"8_SCS_DP()" -> "9_SCS_DP()"
+	"9_SCS_DP()" [label="9_SCS_DP() -> BD"]
+	"9_SCS_DP()" [label="9_SCS_DP()"]
+	"8_SCS_DP()" -> "9_SCS_DP()"
+	"10_SCS_DP()" [label="10_SCS_DP()"]
+	"9_SCS_DP()" -> "10_SCS_DP()"
+	"10_SCS_DP()" [label="10_SCS_DP() -> B"]
+	"10_SCS_DP()" [label="10_SCS_DP()"]
+	"9_SCS_DP()" -> "10_SCS_DP()"
+	"10_SCS_DP()" [label="10_SCS_DP() -> A"]
+	"9_SCS_DP()" [label="9_SCS_DP() -> AB"]
+	"8_SCS_DP()" [label="8_SCS_DP() -> ABD"]
+	"7_SCS_DP(A)" [label="7_SCS_DP(A) -> ABDC"]
+	"7_SCS_DP()" [label="7_SCS_DP()"]
+	"6_SCS_DP()" -> "7_SCS_DP()"
+	"8_SCS_DP(A)" [label="8_SCS_DP(A)"]
+	"7_SCS_DP()" -> "8_SCS_DP(A)"
+	"8_SCS_DP(A)" [label="8_SCS_DP(A) -> ABD"]
+	"8_SCS_DP()" [label="8_SCS_DP()"]
+	"7_SCS_DP()" -> "8_SCS_DP()"
+	"9_SCS_DP()" [label="9_SCS_DP()"]
+	"8_SCS_DP()" -> "9_SCS_DP()"
+	"9_SCS_DP()" [label="9_SCS_DP() -> A"]
+	"8_SCS_DP()" [label="8_SCS_DP() -> AB"]
+	"7_SCS_DP()" [label="7_SCS_DP() -> ABD"]
+	"6_SCS_DP()" [label="6_SCS_DP() -> ABDC"]
+	"5_SCS_DP(AB)" [label="5_SCS_DP(AB) -> ABDCA"]
+	"5_SCS_DP()" [label="5_SCS_DP()"]
+	"4_SCS_DP()" -> "5_SCS_DP()"
+	"6_SCS_DP()" [label="6_SCS_DP()"]
+	"5_SCS_DP()" -> "6_SCS_DP()"
+	"6_SCS_DP()" [label="6_SCS_DP() -> ABD"]
+	"5_SCS_DP()" [label="5_SCS_DP() -> ABDC"]
+	"4_SCS_DP()" [label="4_SCS_DP() -> ABDCA"]
+	"3_SCS_DP(ABCB)" [label="3_SCS_DP(ABCB) -> ABDCAB"]
+	"3_SCS_DP()" [label="3_SCS_DP()"]
+	"2_SCS_DP()" -> "3_SCS_DP()"
+	"4_SCS_DP(ABCB)" [label="4_SCS_DP(ABCB)"]
+	"3_SCS_DP()" -> "4_SCS_DP(ABCB)"
+	"5_SCS_DP(ABC)" [label="5_SCS_DP(ABC)"]
+	"4_SCS_DP(ABCB)" -> "5_SCS_DP(ABC)"
+	"5_SCS_DP(ABC)" [label="5_SCS_DP(ABC) -> ABDCA"]
+	"5_SCS_DP()" [label="5_SCS_DP()"]
+	"4_SCS_DP(ABCB)" -> "5_SCS_DP()"
+	"6_SCS_DP(ABC)" [label="6_SCS_DP(ABC)"]
+	"5_SCS_DP()" -> "6_SCS_DP(ABC)"
+	"6_SCS_DP(ABC)" [label="6_SCS_DP(ABC) -> ABDC"]
+	"6_SCS_DP()" [label="6_SCS_DP()"]
+	"5_SCS_DP()" -> "6_SCS_DP()"
+	"7_SCS_DP(ABC)" [label="7_SCS_DP(ABC)"]
+	"6_SCS_DP()" -> "7_SCS_DP(ABC)"
+	"8_SCS_DP(AB)" [label="8_SCS_DP(AB)"]
+	"7_SCS_DP(ABC)" -> "8_SCS_DP(AB)"
+	"8_SCS_DP(AB)" [label="8_SCS_DP(AB) -> ABD"]
+	"8_SCS_DP()" [label="8_SCS_DP()"]
+	"7_SCS_DP(ABC)" -> "8_SCS_DP()"
+	"9_SCS_DP(AB)" [label="9_SCS_DP(AB)"]
+	"8_SCS_DP()" -> "9_SCS_DP(AB)"
+	"9_SCS_DP(AB)" [label="9_SCS_DP(AB) -> AB"]
+	"9_SCS_DP()" [label="9_SCS_DP()"]
+	"8_SCS_DP()" -> "9_SCS_DP()"
+	"9_SCS_DP()" [label="9_SCS_DP() -> ABC"]
+	"8_SCS_DP()" [label="8_SCS_DP() -> ABC"]
+	"7_SCS_DP(ABC)" [label="7_SCS_DP(ABC) -> ABCD"]
+	"7_SCS_DP()" [label="7_SCS_DP()"]
+	"6_SCS_DP()" -> "7_SCS_DP()"
+	"8_SCS_DP()" [label="8_SCS_DP()"]
+	"7_SCS_DP()" -> "8_SCS_DP()"
+	"8_SCS_DP()" [label="8_SCS_DP() -> ABC"]
+	"7_SCS_DP()" [label="7_SCS_DP() -> ABCB"]
+	"6_SCS_DP()" [label="6_SCS_DP() -> ABCBD"]
+	"5_SCS_DP()" [label="5_SCS_DP() -> ABCBDC"]
+	"4_SCS_DP(ABCB)" [label="4_SCS_DP(ABCB) -> ABCBDCA"]
+	"4_SCS_DP()" [label="4_SCS_DP()"]
+	"3_SCS_DP()" -> "4_SCS_DP()"
+	"5_SCS_DP(ABCB)" [label="5_SCS_DP(ABCB)"]
+	"4_SCS_DP()" -> "5_SCS_DP(ABCB)"
+	"5_SCS_DP(ABCB)" [label="5_SCS_DP(ABCB) -> ABCBDC"]
+	"5_SCS_DP()" [label="5_SCS_DP()"]
+	"4_SCS_DP()" -> "5_SCS_DP()"
+	"6_SCS_DP()" [label="6_SCS_DP()"]
+	"5_SCS_DP()" -> "6_SCS_DP()"
+	"6_SCS_DP()" [label="6_SCS_DP() -> ABCB"]
+	"5_SCS_DP()" [label="5_SCS_DP() -> ABCBD"]
+	"4_SCS_DP()" [label="4_SCS_DP() -> ABCBDC"]
+	"3_SCS_DP()" [label="3_SCS_DP() -> ABCBDCA"]
+	"2_SCS_DP()" [label="2_SCS_DP() -> ABCBDCAB"]
+	"1_SCS_DP(ABCBDA)" [label="1_SCS_DP(ABCBDA) -> ABCBDCABA"]
+	"1_SCS_DP()" [label="1_SCS_DP()"]
+	"0_SCS_DP(ABCBDAB, BDCABA)" -> "1_SCS_DP()"
+	"2_SCS_DP()" [label="2_SCS_DP()"]
+	"1_SCS_DP()" -> "2_SCS_DP()"
+	"3_SCS_DP()" [label="3_SCS_DP()"]
+	"2_SCS_DP()" -> "3_SCS_DP()"
+	"3_SCS_DP()" [label="3_SCS_DP() -> ABCBDC"]
+	"2_SCS_DP()" [label="2_SCS_DP() -> ABCBDCA"]
+	"1_SCS_DP()" [label="1_SCS_DP() -> ABCBDCAB"]
+	"0_SCS_DP(ABCBDAB, BDCABA)" [label="0_SCS_DP(ABCBDAB, BDCABA) -> ABCBDCABA"]
+}
