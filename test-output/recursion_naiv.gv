@@ -1,0 +1,457 @@
+digraph {
+	"0_SCS(ABCBDAB, BDCABA)" [label="0_SCS(ABCBDAB, BDCABA)"]
+	"1_SCS(ABCBDA, BDCABA)" [label="1_SCS(ABCBDA, BDCABA)"]
+	"0_SCS(ABCBDAB, BDCABA)" -> "1_SCS(ABCBDA, BDCABA)"
+	"2_SCS(ABCBD, BDCAB)" [label="2_SCS(ABCBD, BDCAB)"]
+	"1_SCS(ABCBDA, BDCABA)" -> "2_SCS(ABCBD, BDCAB)"
+	"3_SCS(ABCB, BDCAB)" [label="3_SCS(ABCB, BDCAB)"]
+	"2_SCS(ABCBD, BDCAB)" -> "3_SCS(ABCB, BDCAB)"
+	"4_SCS(ABC, BDCA)" [label="4_SCS(ABC, BDCA)"]
+	"3_SCS(ABCB, BDCAB)" -> "4_SCS(ABC, BDCA)"
+	"5_SCS(AB, BDCA)" [label="5_SCS(AB, BDCA)"]
+	"4_SCS(ABC, BDCA)" -> "5_SCS(AB, BDCA)"
+	"6_SCS(A, BDCA)" [label="6_SCS(A, BDCA)"]
+	"5_SCS(AB, BDCA)" -> "6_SCS(A, BDCA)"
+	"7_SCS(, BDC)" [label="7_SCS(, BDC)"]
+	"6_SCS(A, BDCA)" -> "7_SCS(, BDC)"
+	"7_SCS(, BDC)" [label="7_SCS(, BDC) -> BDC"]
+	"6_SCS(A, BDCA)" [label="6_SCS(A, BDCA) -> BDCA"]
+	"6_SCS(AB, BDC)" [label="6_SCS(AB, BDC)"]
+	"5_SCS(AB, BDCA)" -> "6_SCS(AB, BDC)"
+	"7_SCS(A, BDC)" [label="7_SCS(A, BDC)"]
+	"6_SCS(AB, BDC)" -> "7_SCS(A, BDC)"
+	"8_SCS(, BDC)" [label="8_SCS(, BDC)"]
+	"7_SCS(A, BDC)" -> "8_SCS(, BDC)"
+	"8_SCS(, BDC)" [label="8_SCS(, BDC) -> BDC"]
+	"8_SCS(A, BD)" [label="8_SCS(A, BD)"]
+	"7_SCS(A, BDC)" -> "8_SCS(A, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD)"]
+	"8_SCS(A, BD)" -> "9_SCS(, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD) -> BD"]
+	"9_SCS(A, B)" [label="9_SCS(A, B)"]
+	"8_SCS(A, BD)" -> "9_SCS(A, B)"
+	"10_SCS(, B)" [label="10_SCS(, B)"]
+	"9_SCS(A, B)" -> "10_SCS(, B)"
+	"10_SCS(, B)" [label="10_SCS(, B) -> B"]
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(A, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(A, B)" [label="9_SCS(A, B) -> AB"]
+	"8_SCS(A, BD)" [label="8_SCS(A, BD) -> ABD"]
+	"7_SCS(A, BDC)" [label="7_SCS(A, BDC) -> ABDC"]
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD)"]
+	"6_SCS(AB, BDC)" -> "7_SCS(AB, BD)"
+	"8_SCS(A, BD)" [label="8_SCS(A, BD)"]
+	"7_SCS(AB, BD)" -> "8_SCS(A, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD)"]
+	"8_SCS(A, BD)" -> "9_SCS(, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD) -> BD"]
+	"9_SCS(A, B)" [label="9_SCS(A, B)"]
+	"8_SCS(A, BD)" -> "9_SCS(A, B)"
+	"10_SCS(, B)" [label="10_SCS(, B)"]
+	"9_SCS(A, B)" -> "10_SCS(, B)"
+	"10_SCS(, B)" [label="10_SCS(, B) -> B"]
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(A, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(A, B)" [label="9_SCS(A, B) -> AB"]
+	"8_SCS(A, BD)" [label="8_SCS(A, BD) -> ABD"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B)"]
+	"7_SCS(AB, BD)" -> "8_SCS(AB, B)"
+	"9_SCS(A, )" [label="9_SCS(A, )"]
+	"8_SCS(AB, B)" -> "9_SCS(A, )"
+	"9_SCS(A, )" [label="9_SCS(A, ) -> A"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B) -> AB"]
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD) -> ABD"]
+	"6_SCS(AB, BDC)" [label="6_SCS(AB, BDC) -> ABDC"]
+	"5_SCS(AB, BDCA)" [label="5_SCS(AB, BDCA) -> ABDCA"]
+	"5_SCS(ABC, BDC)" [label="5_SCS(ABC, BDC)"]
+	"4_SCS(ABC, BDCA)" -> "5_SCS(ABC, BDC)"
+	"6_SCS(AB, BD)" [label="6_SCS(AB, BD)"]
+	"5_SCS(ABC, BDC)" -> "6_SCS(AB, BD)"
+	"7_SCS(A, BD)" [label="7_SCS(A, BD)"]
+	"6_SCS(AB, BD)" -> "7_SCS(A, BD)"
+	"8_SCS(, BD)" [label="8_SCS(, BD)"]
+	"7_SCS(A, BD)" -> "8_SCS(, BD)"
+	"8_SCS(, BD)" [label="8_SCS(, BD) -> BD"]
+	"8_SCS(A, B)" [label="8_SCS(A, B)"]
+	"7_SCS(A, BD)" -> "8_SCS(A, B)"
+	"9_SCS(, B)" [label="9_SCS(, B)"]
+	"8_SCS(A, B)" -> "9_SCS(, B)"
+	"9_SCS(, B)" [label="9_SCS(, B) -> B"]
+	"9_SCS(A, )" [label="9_SCS(A, )"]
+	"8_SCS(A, B)" -> "9_SCS(A, )"
+	"9_SCS(A, )" [label="9_SCS(A, ) -> A"]
+	"8_SCS(A, B)" [label="8_SCS(A, B) -> AB"]
+	"7_SCS(A, BD)" [label="7_SCS(A, BD) -> ABD"]
+	"7_SCS(AB, B)" [label="7_SCS(AB, B)"]
+	"6_SCS(AB, BD)" -> "7_SCS(AB, B)"
+	"8_SCS(A, )" [label="8_SCS(A, )"]
+	"7_SCS(AB, B)" -> "8_SCS(A, )"
+	"8_SCS(A, )" [label="8_SCS(A, ) -> A"]
+	"7_SCS(AB, B)" [label="7_SCS(AB, B) -> AB"]
+	"6_SCS(AB, BD)" [label="6_SCS(AB, BD) -> ABD"]
+	"5_SCS(ABC, BDC)" [label="5_SCS(ABC, BDC) -> ABDC"]
+	"4_SCS(ABC, BDCA)" [label="4_SCS(ABC, BDCA) -> ABDCA"]
+	"3_SCS(ABCB, BDCAB)" [label="3_SCS(ABCB, BDCAB) -> ABDCAB"]
+	"3_SCS(ABCBD, BDCA)" [label="3_SCS(ABCBD, BDCA)"]
+	"2_SCS(ABCBD, BDCAB)" -> "3_SCS(ABCBD, BDCA)"
+	"4_SCS(ABCB, BDCA)" [label="4_SCS(ABCB, BDCA)"]
+	"3_SCS(ABCBD, BDCA)" -> "4_SCS(ABCB, BDCA)"
+	"5_SCS(ABC, BDCA)" [label="5_SCS(ABC, BDCA)"]
+	"4_SCS(ABCB, BDCA)" -> "5_SCS(ABC, BDCA)"
+	"6_SCS(AB, BDCA)" [label="6_SCS(AB, BDCA)"]
+	"5_SCS(ABC, BDCA)" -> "6_SCS(AB, BDCA)"
+	"7_SCS(A, BDCA)" [label="7_SCS(A, BDCA)"]
+	"6_SCS(AB, BDCA)" -> "7_SCS(A, BDCA)"
+	"8_SCS(, BDC)" [label="8_SCS(, BDC)"]
+	"7_SCS(A, BDCA)" -> "8_SCS(, BDC)"
+	"8_SCS(, BDC)" [label="8_SCS(, BDC) -> BDC"]
+	"7_SCS(A, BDCA)" [label="7_SCS(A, BDCA) -> BDCA"]
+	"7_SCS(AB, BDC)" [label="7_SCS(AB, BDC)"]
+	"6_SCS(AB, BDCA)" -> "7_SCS(AB, BDC)"
+	"8_SCS(A, BDC)" [label="8_SCS(A, BDC)"]
+	"7_SCS(AB, BDC)" -> "8_SCS(A, BDC)"
+	"9_SCS(, BDC)" [label="9_SCS(, BDC)"]
+	"8_SCS(A, BDC)" -> "9_SCS(, BDC)"
+	"9_SCS(, BDC)" [label="9_SCS(, BDC) -> BDC"]
+	"9_SCS(A, BD)" [label="9_SCS(A, BD)"]
+	"8_SCS(A, BDC)" -> "9_SCS(A, BD)"
+	"10_SCS(, BD)" [label="10_SCS(, BD)"]
+	"9_SCS(A, BD)" -> "10_SCS(, BD)"
+	"10_SCS(, BD)" [label="10_SCS(, BD) -> BD"]
+	"10_SCS(A, B)" [label="10_SCS(A, B)"]
+	"9_SCS(A, BD)" -> "10_SCS(A, B)"
+	"11_SCS(, B)" [label="11_SCS(, B)"]
+	"10_SCS(A, B)" -> "11_SCS(, B)"
+	"11_SCS(, B)" [label="11_SCS(, B) -> B"]
+	"11_SCS(A, )" [label="11_SCS(A, )"]
+	"10_SCS(A, B)" -> "11_SCS(A, )"
+	"11_SCS(A, )" [label="11_SCS(A, ) -> A"]
+	"10_SCS(A, B)" [label="10_SCS(A, B) -> AB"]
+	"9_SCS(A, BD)" [label="9_SCS(A, BD) -> ABD"]
+	"8_SCS(A, BDC)" [label="8_SCS(A, BDC) -> ABDC"]
+	"8_SCS(AB, BD)" [label="8_SCS(AB, BD)"]
+	"7_SCS(AB, BDC)" -> "8_SCS(AB, BD)"
+	"9_SCS(A, BD)" [label="9_SCS(A, BD)"]
+	"8_SCS(AB, BD)" -> "9_SCS(A, BD)"
+	"10_SCS(, BD)" [label="10_SCS(, BD)"]
+	"9_SCS(A, BD)" -> "10_SCS(, BD)"
+	"10_SCS(, BD)" [label="10_SCS(, BD) -> BD"]
+	"10_SCS(A, B)" [label="10_SCS(A, B)"]
+	"9_SCS(A, BD)" -> "10_SCS(A, B)"
+	"11_SCS(, B)" [label="11_SCS(, B)"]
+	"10_SCS(A, B)" -> "11_SCS(, B)"
+	"11_SCS(, B)" [label="11_SCS(, B) -> B"]
+	"11_SCS(A, )" [label="11_SCS(A, )"]
+	"10_SCS(A, B)" -> "11_SCS(A, )"
+	"11_SCS(A, )" [label="11_SCS(A, ) -> A"]
+	"10_SCS(A, B)" [label="10_SCS(A, B) -> AB"]
+	"9_SCS(A, BD)" [label="9_SCS(A, BD) -> ABD"]
+	"9_SCS(AB, B)" [label="9_SCS(AB, B)"]
+	"8_SCS(AB, BD)" -> "9_SCS(AB, B)"
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(AB, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(AB, B)" [label="9_SCS(AB, B) -> AB"]
+	"8_SCS(AB, BD)" [label="8_SCS(AB, BD) -> ABD"]
+	"7_SCS(AB, BDC)" [label="7_SCS(AB, BDC) -> ABDC"]
+	"6_SCS(AB, BDCA)" [label="6_SCS(AB, BDCA) -> ABDCA"]
+	"6_SCS(ABC, BDC)" [label="6_SCS(ABC, BDC)"]
+	"5_SCS(ABC, BDCA)" -> "6_SCS(ABC, BDC)"
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD)"]
+	"6_SCS(ABC, BDC)" -> "7_SCS(AB, BD)"
+	"8_SCS(A, BD)" [label="8_SCS(A, BD)"]
+	"7_SCS(AB, BD)" -> "8_SCS(A, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD)"]
+	"8_SCS(A, BD)" -> "9_SCS(, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD) -> BD"]
+	"9_SCS(A, B)" [label="9_SCS(A, B)"]
+	"8_SCS(A, BD)" -> "9_SCS(A, B)"
+	"10_SCS(, B)" [label="10_SCS(, B)"]
+	"9_SCS(A, B)" -> "10_SCS(, B)"
+	"10_SCS(, B)" [label="10_SCS(, B) -> B"]
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(A, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(A, B)" [label="9_SCS(A, B) -> AB"]
+	"8_SCS(A, BD)" [label="8_SCS(A, BD) -> ABD"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B)"]
+	"7_SCS(AB, BD)" -> "8_SCS(AB, B)"
+	"9_SCS(A, )" [label="9_SCS(A, )"]
+	"8_SCS(AB, B)" -> "9_SCS(A, )"
+	"9_SCS(A, )" [label="9_SCS(A, ) -> A"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B) -> AB"]
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD) -> ABD"]
+	"6_SCS(ABC, BDC)" [label="6_SCS(ABC, BDC) -> ABDC"]
+	"5_SCS(ABC, BDCA)" [label="5_SCS(ABC, BDCA) -> ABDCA"]
+	"5_SCS(ABCB, BDC)" [label="5_SCS(ABCB, BDC)"]
+	"4_SCS(ABCB, BDCA)" -> "5_SCS(ABCB, BDC)"
+	"6_SCS(ABC, BDC)" [label="6_SCS(ABC, BDC)"]
+	"5_SCS(ABCB, BDC)" -> "6_SCS(ABC, BDC)"
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD)"]
+	"6_SCS(ABC, BDC)" -> "7_SCS(AB, BD)"
+	"8_SCS(A, BD)" [label="8_SCS(A, BD)"]
+	"7_SCS(AB, BD)" -> "8_SCS(A, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD)"]
+	"8_SCS(A, BD)" -> "9_SCS(, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD) -> BD"]
+	"9_SCS(A, B)" [label="9_SCS(A, B)"]
+	"8_SCS(A, BD)" -> "9_SCS(A, B)"
+	"10_SCS(, B)" [label="10_SCS(, B)"]
+	"9_SCS(A, B)" -> "10_SCS(, B)"
+	"10_SCS(, B)" [label="10_SCS(, B) -> B"]
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(A, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(A, B)" [label="9_SCS(A, B) -> AB"]
+	"8_SCS(A, BD)" [label="8_SCS(A, BD) -> ABD"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B)"]
+	"7_SCS(AB, BD)" -> "8_SCS(AB, B)"
+	"9_SCS(A, )" [label="9_SCS(A, )"]
+	"8_SCS(AB, B)" -> "9_SCS(A, )"
+	"9_SCS(A, )" [label="9_SCS(A, ) -> A"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B) -> AB"]
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD) -> ABD"]
+	"6_SCS(ABC, BDC)" [label="6_SCS(ABC, BDC) -> ABDC"]
+	"6_SCS(ABCB, BD)" [label="6_SCS(ABCB, BD)"]
+	"5_SCS(ABCB, BDC)" -> "6_SCS(ABCB, BD)"
+	"7_SCS(ABC, BD)" [label="7_SCS(ABC, BD)"]
+	"6_SCS(ABCB, BD)" -> "7_SCS(ABC, BD)"
+	"8_SCS(AB, BD)" [label="8_SCS(AB, BD)"]
+	"7_SCS(ABC, BD)" -> "8_SCS(AB, BD)"
+	"9_SCS(A, BD)" [label="9_SCS(A, BD)"]
+	"8_SCS(AB, BD)" -> "9_SCS(A, BD)"
+	"10_SCS(, BD)" [label="10_SCS(, BD)"]
+	"9_SCS(A, BD)" -> "10_SCS(, BD)"
+	"10_SCS(, BD)" [label="10_SCS(, BD) -> BD"]
+	"10_SCS(A, B)" [label="10_SCS(A, B)"]
+	"9_SCS(A, BD)" -> "10_SCS(A, B)"
+	"11_SCS(, B)" [label="11_SCS(, B)"]
+	"10_SCS(A, B)" -> "11_SCS(, B)"
+	"11_SCS(, B)" [label="11_SCS(, B) -> B"]
+	"11_SCS(A, )" [label="11_SCS(A, )"]
+	"10_SCS(A, B)" -> "11_SCS(A, )"
+	"11_SCS(A, )" [label="11_SCS(A, ) -> A"]
+	"10_SCS(A, B)" [label="10_SCS(A, B) -> AB"]
+	"9_SCS(A, BD)" [label="9_SCS(A, BD) -> ABD"]
+	"9_SCS(AB, B)" [label="9_SCS(AB, B)"]
+	"8_SCS(AB, BD)" -> "9_SCS(AB, B)"
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(AB, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(AB, B)" [label="9_SCS(AB, B) -> AB"]
+	"8_SCS(AB, BD)" [label="8_SCS(AB, BD) -> ABD"]
+	"8_SCS(ABC, B)" [label="8_SCS(ABC, B)"]
+	"7_SCS(ABC, BD)" -> "8_SCS(ABC, B)"
+	"9_SCS(AB, B)" [label="9_SCS(AB, B)"]
+	"8_SCS(ABC, B)" -> "9_SCS(AB, B)"
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(AB, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(AB, B)" [label="9_SCS(AB, B) -> AB"]
+	"9_SCS(ABC, )" [label="9_SCS(ABC, )"]
+	"8_SCS(ABC, B)" -> "9_SCS(ABC, )"
+	"9_SCS(ABC, )" [label="9_SCS(ABC, ) -> ABC"]
+	"8_SCS(ABC, B)" [label="8_SCS(ABC, B) -> ABC"]
+	"7_SCS(ABC, BD)" [label="7_SCS(ABC, BD) -> ABCD"]
+	"7_SCS(ABCB, B)" [label="7_SCS(ABCB, B)"]
+	"6_SCS(ABCB, BD)" -> "7_SCS(ABCB, B)"
+	"8_SCS(ABC, )" [label="8_SCS(ABC, )"]
+	"7_SCS(ABCB, B)" -> "8_SCS(ABC, )"
+	"8_SCS(ABC, )" [label="8_SCS(ABC, ) -> ABC"]
+	"7_SCS(ABCB, B)" [label="7_SCS(ABCB, B) -> ABCB"]
+	"6_SCS(ABCB, BD)" [label="6_SCS(ABCB, BD) -> ABCBD"]
+	"5_SCS(ABCB, BDC)" [label="5_SCS(ABCB, BDC) -> ABCBDC"]
+	"4_SCS(ABCB, BDCA)" [label="4_SCS(ABCB, BDCA) -> ABCBDCA"]
+	"4_SCS(ABCBD, BDC)" [label="4_SCS(ABCBD, BDC)"]
+	"3_SCS(ABCBD, BDCA)" -> "4_SCS(ABCBD, BDC)"
+	"5_SCS(ABCB, BDC)" [label="5_SCS(ABCB, BDC)"]
+	"4_SCS(ABCBD, BDC)" -> "5_SCS(ABCB, BDC)"
+	"6_SCS(ABC, BDC)" [label="6_SCS(ABC, BDC)"]
+	"5_SCS(ABCB, BDC)" -> "6_SCS(ABC, BDC)"
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD)"]
+	"6_SCS(ABC, BDC)" -> "7_SCS(AB, BD)"
+	"8_SCS(A, BD)" [label="8_SCS(A, BD)"]
+	"7_SCS(AB, BD)" -> "8_SCS(A, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD)"]
+	"8_SCS(A, BD)" -> "9_SCS(, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD) -> BD"]
+	"9_SCS(A, B)" [label="9_SCS(A, B)"]
+	"8_SCS(A, BD)" -> "9_SCS(A, B)"
+	"10_SCS(, B)" [label="10_SCS(, B)"]
+	"9_SCS(A, B)" -> "10_SCS(, B)"
+	"10_SCS(, B)" [label="10_SCS(, B) -> B"]
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(A, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(A, B)" [label="9_SCS(A, B) -> AB"]
+	"8_SCS(A, BD)" [label="8_SCS(A, BD) -> ABD"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B)"]
+	"7_SCS(AB, BD)" -> "8_SCS(AB, B)"
+	"9_SCS(A, )" [label="9_SCS(A, )"]
+	"8_SCS(AB, B)" -> "9_SCS(A, )"
+	"9_SCS(A, )" [label="9_SCS(A, ) -> A"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B) -> AB"]
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD) -> ABD"]
+	"6_SCS(ABC, BDC)" [label="6_SCS(ABC, BDC) -> ABDC"]
+	"6_SCS(ABCB, BD)" [label="6_SCS(ABCB, BD)"]
+	"5_SCS(ABCB, BDC)" -> "6_SCS(ABCB, BD)"
+	"7_SCS(ABC, BD)" [label="7_SCS(ABC, BD)"]
+	"6_SCS(ABCB, BD)" -> "7_SCS(ABC, BD)"
+	"8_SCS(AB, BD)" [label="8_SCS(AB, BD)"]
+	"7_SCS(ABC, BD)" -> "8_SCS(AB, BD)"
+	"9_SCS(A, BD)" [label="9_SCS(A, BD)"]
+	"8_SCS(AB, BD)" -> "9_SCS(A, BD)"
+	"10_SCS(, BD)" [label="10_SCS(, BD)"]
+	"9_SCS(A, BD)" -> "10_SCS(, BD)"
+	"10_SCS(, BD)" [label="10_SCS(, BD) -> BD"]
+	"10_SCS(A, B)" [label="10_SCS(A, B)"]
+	"9_SCS(A, BD)" -> "10_SCS(A, B)"
+	"11_SCS(, B)" [label="11_SCS(, B)"]
+	"10_SCS(A, B)" -> "11_SCS(, B)"
+	"11_SCS(, B)" [label="11_SCS(, B) -> B"]
+	"11_SCS(A, )" [label="11_SCS(A, )"]
+	"10_SCS(A, B)" -> "11_SCS(A, )"
+	"11_SCS(A, )" [label="11_SCS(A, ) -> A"]
+	"10_SCS(A, B)" [label="10_SCS(A, B) -> AB"]
+	"9_SCS(A, BD)" [label="9_SCS(A, BD) -> ABD"]
+	"9_SCS(AB, B)" [label="9_SCS(AB, B)"]
+	"8_SCS(AB, BD)" -> "9_SCS(AB, B)"
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(AB, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(AB, B)" [label="9_SCS(AB, B) -> AB"]
+	"8_SCS(AB, BD)" [label="8_SCS(AB, BD) -> ABD"]
+	"8_SCS(ABC, B)" [label="8_SCS(ABC, B)"]
+	"7_SCS(ABC, BD)" -> "8_SCS(ABC, B)"
+	"9_SCS(AB, B)" [label="9_SCS(AB, B)"]
+	"8_SCS(ABC, B)" -> "9_SCS(AB, B)"
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(AB, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(AB, B)" [label="9_SCS(AB, B) -> AB"]
+	"9_SCS(ABC, )" [label="9_SCS(ABC, )"]
+	"8_SCS(ABC, B)" -> "9_SCS(ABC, )"
+	"9_SCS(ABC, )" [label="9_SCS(ABC, ) -> ABC"]
+	"8_SCS(ABC, B)" [label="8_SCS(ABC, B) -> ABC"]
+	"7_SCS(ABC, BD)" [label="7_SCS(ABC, BD) -> ABCD"]
+	"7_SCS(ABCB, B)" [label="7_SCS(ABCB, B)"]
+	"6_SCS(ABCB, BD)" -> "7_SCS(ABCB, B)"
+	"8_SCS(ABC, )" [label="8_SCS(ABC, )"]
+	"7_SCS(ABCB, B)" -> "8_SCS(ABC, )"
+	"8_SCS(ABC, )" [label="8_SCS(ABC, ) -> ABC"]
+	"7_SCS(ABCB, B)" [label="7_SCS(ABCB, B) -> ABCB"]
+	"6_SCS(ABCB, BD)" [label="6_SCS(ABCB, BD) -> ABCBD"]
+	"5_SCS(ABCB, BDC)" [label="5_SCS(ABCB, BDC) -> ABCBDC"]
+	"5_SCS(ABCBD, BD)" [label="5_SCS(ABCBD, BD)"]
+	"4_SCS(ABCBD, BDC)" -> "5_SCS(ABCBD, BD)"
+	"6_SCS(ABCB, B)" [label="6_SCS(ABCB, B)"]
+	"5_SCS(ABCBD, BD)" -> "6_SCS(ABCB, B)"
+	"7_SCS(ABC, )" [label="7_SCS(ABC, )"]
+	"6_SCS(ABCB, B)" -> "7_SCS(ABC, )"
+	"7_SCS(ABC, )" [label="7_SCS(ABC, ) -> ABC"]
+	"6_SCS(ABCB, B)" [label="6_SCS(ABCB, B) -> ABCB"]
+	"5_SCS(ABCBD, BD)" [label="5_SCS(ABCBD, BD) -> ABCBD"]
+	"4_SCS(ABCBD, BDC)" [label="4_SCS(ABCBD, BDC) -> ABCBDC"]
+	"3_SCS(ABCBD, BDCA)" [label="3_SCS(ABCBD, BDCA) -> ABCBDCA"]
+	"2_SCS(ABCBD, BDCAB)" [label="2_SCS(ABCBD, BDCAB) -> ABCBDCAB"]
+	"1_SCS(ABCBDA, BDCABA)" [label="1_SCS(ABCBDA, BDCABA) -> ABCBDCABA"]
+	"1_SCS(ABCBDAB, BDCAB)" [label="1_SCS(ABCBDAB, BDCAB)"]
+	"0_SCS(ABCBDAB, BDCABA)" -> "1_SCS(ABCBDAB, BDCAB)"
+	"2_SCS(ABCBDA, BDCA)" [label="2_SCS(ABCBDA, BDCA)"]
+	"1_SCS(ABCBDAB, BDCAB)" -> "2_SCS(ABCBDA, BDCA)"
+	"3_SCS(ABCBD, BDC)" [label="3_SCS(ABCBD, BDC)"]
+	"2_SCS(ABCBDA, BDCA)" -> "3_SCS(ABCBD, BDC)"
+	"4_SCS(ABCB, BDC)" [label="4_SCS(ABCB, BDC)"]
+	"3_SCS(ABCBD, BDC)" -> "4_SCS(ABCB, BDC)"
+	"5_SCS(ABC, BDC)" [label="5_SCS(ABC, BDC)"]
+	"4_SCS(ABCB, BDC)" -> "5_SCS(ABC, BDC)"
+	"6_SCS(AB, BD)" [label="6_SCS(AB, BD)"]
+	"5_SCS(ABC, BDC)" -> "6_SCS(AB, BD)"
+	"7_SCS(A, BD)" [label="7_SCS(A, BD)"]
+	"6_SCS(AB, BD)" -> "7_SCS(A, BD)"
+	"8_SCS(, BD)" [label="8_SCS(, BD)"]
+	"7_SCS(A, BD)" -> "8_SCS(, BD)"
+	"8_SCS(, BD)" [label="8_SCS(, BD) -> BD"]
+	"8_SCS(A, B)" [label="8_SCS(A, B)"]
+	"7_SCS(A, BD)" -> "8_SCS(A, B)"
+	"9_SCS(, B)" [label="9_SCS(, B)"]
+	"8_SCS(A, B)" -> "9_SCS(, B)"
+	"9_SCS(, B)" [label="9_SCS(, B) -> B"]
+	"9_SCS(A, )" [label="9_SCS(A, )"]
+	"8_SCS(A, B)" -> "9_SCS(A, )"
+	"9_SCS(A, )" [label="9_SCS(A, ) -> A"]
+	"8_SCS(A, B)" [label="8_SCS(A, B) -> AB"]
+	"7_SCS(A, BD)" [label="7_SCS(A, BD) -> ABD"]
+	"7_SCS(AB, B)" [label="7_SCS(AB, B)"]
+	"6_SCS(AB, BD)" -> "7_SCS(AB, B)"
+	"8_SCS(A, )" [label="8_SCS(A, )"]
+	"7_SCS(AB, B)" -> "8_SCS(A, )"
+	"8_SCS(A, )" [label="8_SCS(A, ) -> A"]
+	"7_SCS(AB, B)" [label="7_SCS(AB, B) -> AB"]
+	"6_SCS(AB, BD)" [label="6_SCS(AB, BD) -> ABD"]
+	"5_SCS(ABC, BDC)" [label="5_SCS(ABC, BDC) -> ABDC"]
+	"5_SCS(ABCB, BD)" [label="5_SCS(ABCB, BD)"]
+	"4_SCS(ABCB, BDC)" -> "5_SCS(ABCB, BD)"
+	"6_SCS(ABC, BD)" [label="6_SCS(ABC, BD)"]
+	"5_SCS(ABCB, BD)" -> "6_SCS(ABC, BD)"
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD)"]
+	"6_SCS(ABC, BD)" -> "7_SCS(AB, BD)"
+	"8_SCS(A, BD)" [label="8_SCS(A, BD)"]
+	"7_SCS(AB, BD)" -> "8_SCS(A, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD)"]
+	"8_SCS(A, BD)" -> "9_SCS(, BD)"
+	"9_SCS(, BD)" [label="9_SCS(, BD) -> BD"]
+	"9_SCS(A, B)" [label="9_SCS(A, B)"]
+	"8_SCS(A, BD)" -> "9_SCS(A, B)"
+	"10_SCS(, B)" [label="10_SCS(, B)"]
+	"9_SCS(A, B)" -> "10_SCS(, B)"
+	"10_SCS(, B)" [label="10_SCS(, B) -> B"]
+	"10_SCS(A, )" [label="10_SCS(A, )"]
+	"9_SCS(A, B)" -> "10_SCS(A, )"
+	"10_SCS(A, )" [label="10_SCS(A, ) -> A"]
+	"9_SCS(A, B)" [label="9_SCS(A, B) -> AB"]
+	"8_SCS(A, BD)" [label="8_SCS(A, BD) -> ABD"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B)"]
+	"7_SCS(AB, BD)" -> "8_SCS(AB, B)"
+	"9_SCS(A, )" [label="9_SCS(A, )"]
+	"8_SCS(AB, B)" -> "9_SCS(A, )"
+	"9_SCS(A, )" [label="9_SCS(A, ) -> A"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B) -> AB"]
+	"7_SCS(AB, BD)" [label="7_SCS(AB, BD) -> ABD"]
+	"7_SCS(ABC, B)" [label="7_SCS(ABC, B)"]
+	"6_SCS(ABC, BD)" -> "7_SCS(ABC, B)"
+	"8_SCS(AB, B)" [label="8_SCS(AB, B)"]
+	"7_SCS(ABC, B)" -> "8_SCS(AB, B)"
+	"9_SCS(A, )" [label="9_SCS(A, )"]
+	"8_SCS(AB, B)" -> "9_SCS(A, )"
+	"9_SCS(A, )" [label="9_SCS(A, ) -> A"]
+	"8_SCS(AB, B)" [label="8_SCS(AB, B) -> AB"]
+	"8_SCS(ABC, )" [label="8_SCS(ABC, )"]
+	"7_SCS(ABC, B)" -> "8_SCS(ABC, )"
+	"8_SCS(ABC, )" [label="8_SCS(ABC, ) -> ABC"]
+	"7_SCS(ABC, B)" [label="7_SCS(ABC, B) -> ABC"]
+	"6_SCS(ABC, BD)" [label="6_SCS(ABC, BD) -> ABCD"]
+	"6_SCS(ABCB, B)" [label="6_SCS(ABCB, B)"]
+	"5_SCS(ABCB, BD)" -> "6_SCS(ABCB, B)"
+	"7_SCS(ABC, )" [label="7_SCS(ABC, )"]
+	"6_SCS(ABCB, B)" -> "7_SCS(ABC, )"
+	"7_SCS(ABC, )" [label="7_SCS(ABC, ) -> ABC"]
+	"6_SCS(ABCB, B)" [label="6_SCS(ABCB, B) -> ABCB"]
+	"5_SCS(ABCB, BD)" [label="5_SCS(ABCB, BD) -> ABCBD"]
+	"4_SCS(ABCB, BDC)" [label="4_SCS(ABCB, BDC) -> ABCBDC"]
+	"4_SCS(ABCBD, BD)" [label="4_SCS(ABCBD, BD)"]
+	"3_SCS(ABCBD, BDC)" -> "4_SCS(ABCBD, BD)"
+	"5_SCS(ABCB, B)" [label="5_SCS(ABCB, B)"]
+	"4_SCS(ABCBD, BD)" -> "5_SCS(ABCB, B)"
+	"6_SCS(ABC, )" [label="6_SCS(ABC, )"]
+	"5_SCS(ABCB, B)" -> "6_SCS(ABC, )"
+	"6_SCS(ABC, )" [label="6_SCS(ABC, ) -> ABC"]
+	"5_SCS(ABCB, B)" [label="5_SCS(ABCB, B) -> ABCB"]
+	"4_SCS(ABCBD, BD)" [label="4_SCS(ABCBD, BD) -> ABCBD"]
+	"3_SCS(ABCBD, BDC)" [label="3_SCS(ABCBD, BDC) -> ABCBDC"]
+	"2_SCS(ABCBDA, BDCA)" [label="2_SCS(ABCBDA, BDCA) -> ABCBDCA"]
+	"1_SCS(ABCBDAB, BDCAB)" [label="1_SCS(ABCBDAB, BDCAB) -> ABCBDCAB"]
+	"0_SCS(ABCBDAB, BDCABA)" [label="0_SCS(ABCBDAB, BDCABA) -> ABCBDCABA"]
+}
