@@ -1,6 +1,7 @@
 import functools
 import graphviz
 
+
 def recursion_visualizer(func):
     func_name = func.__name__
     separator = '|  '
