@@ -14,18 +14,20 @@ def SCS_DP(s: str, t: str, lookup: dict = {}) -> str:
             lookup[key] = min(SCS_DP(s[0:-1], t=t, lookup=lookup)+s[-1], SCS_DP(s=s, t=t[0:-1], lookup=lookup)+t[-1])
 
     return lookup[key]
+    
 
-# Call function
-s = "ABCBDAB"
-t = "BDCABA"
-scs = SCS_DP(s,t)
+if __name__ == "__main__":
+    # Call function
+    s = "ABCBDAB"
+    t = "BDCABA"
+    scs = SCS_DP(s,t)
 
-print(rv.graph)
+    print(rv.graph)
 
-rv.graph.render('test-output/round-table.gv', view=True)
+    rv.graph.render('test-output/round-table.gv', view=True)
 
-# print("Edges:")
-# print(RV.graph.get_edge_list())
+    # print("Edges:")
+    # print(RV.graph.get_edge_list())
 
 
-print(scs)
+    print(scs)
